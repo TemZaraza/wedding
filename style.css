@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto&display=swap');
+
+body {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 20px;
+    color: #1a2730;
+    background: #f1f1f1;
+    align-content: center;
+}
+
+.container {
+    margin: 10px 50px 50px 50px
+}
+
+.navbar {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+
+.navbar a:hover {
+    color: #82c4db;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    padding: 2px 10px;
+    text-align: center;
+}
+
+
+
+h1, h2, h3, h4 {
+    font-weight: 900;
+}
+
+h3 {
+    text-align: center;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+    
+}
+
+.card {
+    padding: 15px 20px; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.invitation {
+    color: #f1f1f1;
+    background: rgb(58, 85, 104);
+    text-align: center;
+  
+    
+}
+.information {
+    background: #9ce2fc;
+    
+}
+.contact {
+    background: #e7e7d2;
+}
+
+.link {
+   color: rgb(58, 85, 104);
+   padding: 0 2px;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.link:hover {
+    color: #82c4db;
+}
+
+.links {
+    margin: 10px 20px;
+}
+
+.links ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.links ul li {
+    margin: 0 5px;
+    
+}
+
+.btn {
+    padding: 5px 5px;
+    font-family: inherit;
+    color:rgb(58, 85, 104);
+
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.form-group {
+    margin: 10px 0;
+    width: 50%;
+    
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input, textarea {
+    font-family: inherit;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: #e7e7d2;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-row .form-group {
+    border-bottom: 1px solid rgb(58, 85, 104);
+    margin-right: 20px;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .form-group textarea {
+        width: 250px;
+    }
+}
